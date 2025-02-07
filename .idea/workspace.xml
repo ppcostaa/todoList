@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7eea7a2a-07cd-485a-9b06-91e2cf321452" name="Changes" comment="Criando o menu com todas as finalidades necessárias">
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/AdicionarTarefa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/AtualizarTarefa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/GerenciadorDeTarefas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/GerenciadorDeTarefas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/ListarTarefa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/Prioridade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/RemoverTarefa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/todoList/Tarefa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdicionarTarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdicionarTarefa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarefa.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ppcostaa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ppcostaa/todoList&quot;,
+    &quot;accountId&quot;: &quot;38bf22bc-3823-41cc-bc6e-bb8264473378&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2sdMxdmw7MEKCMzIQU7hKMpF1sE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pcosta/acelera/todoList&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/pcosta/acelera/todoList/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-1.21.0-openjdk-amd64" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="todoList" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eea7a2a-07cd-485a-9b06-91e2cf321452" name="Changes" comment="" />
+      <created>1738781247759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738781247759</updated>
+      <workItem from="1738781248905" duration="8600000" />
+      <workItem from="1738951371472" duration="2397000" />
+      <workItem from="1738953783592" duration="109000" />
+      <workItem from="1738953907202" duration="74000" />
+      <workItem from="1738953990529" duration="53000" />
+      <workItem from="1738954056159" duration="37000" />
+    </task>
+    <task id="LOCAL-00001" summary="Primeiro commit, lançando o projeto.">
+      <option name="closed" value="true" />
+      <created>1738781583267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738781583267</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Criando o menu com todas as finalidades necessárias">
+      <option name="closed" value="true" />
+      <created>1738788461732</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738788461732</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiro commit, lançando o projeto." />
+    <MESSAGE value="Criando o menu com todas as finalidades necessárias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando o menu com todas as finalidades necessárias" />
+  </component>
+</project>
