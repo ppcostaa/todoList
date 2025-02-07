@@ -7,7 +7,10 @@ public class Menu {
     public static void iniciarMenu(String[] args) {
         Scanner scanner = new Scanner(System.in);
         GerenciadorDeTarefas gerenciador = new GerenciadorDeTarefas();
+        Alarme alarme = new Alarme();
+
         while (true) {
+            alarme.checarAlarmes(gerenciador.getListaDeTarefas());
             System.out.println("\nMENU:");
             System.out.println("1. Listar Tarefas");
             System.out.println("2. Adicionar Tarefa");

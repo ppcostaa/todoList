@@ -9,8 +9,8 @@ public class ListarTarefa {
             return;
         }
 
-        if (filtroEscolha < 1 || filtroEscolha > 4) {
-            System.out.println("Opção inválida! Escolha um número entre 1 e 4.");
+        if (filtroEscolha < 1 || filtroEscolha > 5) {
+            System.out.println("Opção inválida! Escolha um número entre 1 e 5.");
             return;
         }
 

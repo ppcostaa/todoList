@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public class Tarefa {
     private String nome;
     private String descricao;
@@ -5,14 +7,18 @@ public class Tarefa {
     private Prioridade prioridade;
     private String categoria;
     private Status status;
+    private boolean alarmeAtivado;
+    private LocalDateTime alarme;
 
-    public Tarefa(String nome, String descricao, String dataTermino, Prioridade prioridade, String categoria, Status status) {
+    public Tarefa(String nome, String descricao, String dataTermino, Prioridade prioridade, String categoria, Status status, boolean alarmeAtivado, LocalDateTime alarme) {
         this.nome = nome;
         this.descricao = descricao;
         this.dataTermino = dataTermino;
         this.prioridade = prioridade;
         this.categoria = categoria;
         this.status = status;
+        this.alarmeAtivado = alarmeAtivado;
+        this.alarme = alarme;
     }
 
     public String toString() {
@@ -24,6 +30,7 @@ public class Tarefa {
                 "\nStatus: " + status +
                 "\n✦•······················•✦•······················•✦";
     }
+
 
     public String getNome() {
         return nome;
@@ -57,5 +64,12 @@ public class Tarefa {
     }
     public void setStatus(Status status) {
         this.status = status;
+    }
+    public boolean isAlarmeAtivado() {
+        return alarmeAtivado;
+    }
+
+    public LocalDateTime getAlarme() {
+        return alarme;
     }
 }

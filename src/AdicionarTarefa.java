@@ -1,9 +1,13 @@
 import java.util.List;
 import java.util.Scanner;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class AdicionarTarefa {
     public void adicionarTarefa(List<Tarefa> listaDeTarefas) {
         Scanner scanner = new Scanner(System.in);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+
 
         System.out.print("Digite o nome da tarefa: ");
         String nome = scanner.nextLine();
@@ -26,10 +30,20 @@ public class AdicionarTarefa {
         int statusNumero = scanner.nextInt();
         scanner.nextLine();
 
+        System.out.print("Deseja ativar um alarme para essa tarefa? (S/N): ");
+        boolean alarmeAtivado = scanner.nextLine().equalsIgnoreCase("S");
+
+        LocalDateTime alarme = null;
+        if (alarmeAtivado) {
+            System.out.print("Digite a data e hora do alarme (dd/MM/yyyy HH:mm): ");
+            alarme = LocalDateTime.parse(scanner.nextLine(), formatter);
+        }
+
+
         Prioridade prioridade = Prioridade.porNumero(prioridadeNumero);
         Status status = Status.porNumero(statusNumero);
 
-        Tarefa novaTarefa = new Tarefa(nome, descricao, dataTermino, prioridade, categoria, status);
+        Tarefa novaTarefa = new Tarefa(nome, descricao, dataTermino, prioridade, categoria, status, alarmeAtivado, alarme);
         listaDeTarefas.add(novaTarefa);
 
         System.out.println("\n Tarefa adicionada com sucesso! :)");
