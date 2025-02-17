@@ -11,7 +11,7 @@ Este é um projeto de TODO-List simples que permite ao usuário adicionar, remov
 1. Clonar o Repositório
 Primeiro, clone o repositório em sua máquina local:
 ```
-git clone https://github.com/seu-usuario/todo-list.git](https://github.com/ppcostaa/todoList.git)
+git clone https://github.com/ppcostaa/todoList.git
 ```
 
 2. Compilar e Executar
