@@ -1,20 +1,25 @@
 # To-do List em Java
-Este é um projeto de TODO-List simples que permite ao usuário adicionar, remover, atualizar e listar suas tarefas. O objetivo principal é aprimorar meus conhecimentos em Java <3
+Este é um projeto de TODO-List simples que permite ao usuário adicionar, remover, atualizar e listar suas tarefas. O objetivo principal é aprimorar meus conhecimentos em Java e Desenvolvimento Web 💡✨
 
-## Funcionalidades
+## 🛠 Tecnologias Utilizadas
+Back-end: Java (sem frameworks)
+Front-end: HTML, CSS, JavaScript (puro)
+
+## ✨Funcionalidades
 - Adicionar tarefas: Permite adicionar tarefas com nome, descrição, data de término, categoria, prioridade e status.
 - Remover tarefas: Permite remover tarefas da lista.
 - Atualizar tarefas: Permite atualizar informações de uma tarefa existente.
 - Listar tarefas: Exibe todas as tarefas cadastradas, tendo a opção de listar por categoria, prioridade e status.
+- Interface Web: Agora o projeto conta com uma interface interativa para facilitar a interação com a lista de tarefas.
 
 ## Como Executar o Código
-1. Clonar o Repositório
+###1️⃣ Clonar o Repositório
 Primeiro, clone o repositório em sua máquina local:
 ```
 git clone https://github.com/ppcostaa/todoList.git
 ```
 
-2. Compilar e Executar
+###2️⃣ Executar o Back-end (Java)
 Certifique-se de que o Java está instalado em sua máquina. Se não estiver, baixe e instale o JDK (Java Development Kit) [aqui](https://www.oracle.com/java/technologies/downloads/#java11?er=221886).
 - Navegue até a pasta do projeto.
 - Compile o código com o comando:
@@ -26,11 +31,16 @@ javac GerenciadorDeTarefas.java Tarefa.java
 java GerenciadorDeTarefas
 ```
 Isso iniciará o programa e permitirá que você interaja com o gerenciamento de tarefas.
+###3️⃣ Executar o Front-end (HTML, CSS, JS)
+Abra o arquivo index.html no navegador ou utilize uma extensão de servidor local (como Live Server no VS Code) para melhor experiência.
 
-## Onde e como foi feito?
-O projeto foi feito usando IntelliJ IDEA, sendo o Java a linguagem do projeto!!! Não há uso de frameworks nesse projeto.
+##🎨 Interface e Experiência
+
+O projeto agora conta com uma interface responsiva e dinâmica, permitindo que os usuários gerenciem suas tarefas diretamente!
+
+## 📌Onde e como foi feito?
+O back-end foi desenvolvido em Java e o front-end com HTML, CSS e JavaScript puro. O desenvolvimento foi feito no IntelliJ IDEA e Visual Studio Code.
 Aproveite!!! <3
 
-Autora
-Gio PCosta
+⚡ Autora: Gio PCosta
 
