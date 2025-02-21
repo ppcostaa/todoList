@@ -13,13 +13,13 @@ Front-end: HTML, CSS, JavaScript (puro)
 - Interface Web: Agora o projeto conta com uma interface interativa para facilitar a interação com a lista de tarefas.
 
 ## Como Executar o Código
-###1️⃣ Clonar o Repositório
+### 1️⃣ Clonar o Repositório
 Primeiro, clone o repositório em sua máquina local:
 ```
 git clone https://github.com/ppcostaa/todoList.git
 ```
 
-###2️⃣ Executar o Back-end (Java)
+### 2️⃣ Executar o Back-end (Java)
 Certifique-se de que o Java está instalado em sua máquina. Se não estiver, baixe e instale o JDK (Java Development Kit) [aqui](https://www.oracle.com/java/technologies/downloads/#java11?er=221886).
 - Navegue até a pasta do projeto.
 - Compile o código com o comando:
@@ -31,10 +31,10 @@ javac GerenciadorDeTarefas.java Tarefa.java
 java GerenciadorDeTarefas
 ```
 Isso iniciará o programa e permitirá que você interaja com o gerenciamento de tarefas.
-###3️⃣ Executar o Front-end (HTML, CSS, JS)
+### 3️⃣ Executar o Front-end (HTML, CSS, JS)
 Abra o arquivo index.html no navegador ou utilize uma extensão de servidor local (como Live Server no VS Code) para melhor experiência.
 
-##🎨 Interface e Experiência
+## 🎨 Interface e Experiência
 
 O projeto agora conta com uma interface responsiva e dinâmica, permitindo que os usuários gerenciem suas tarefas diretamente!
 
